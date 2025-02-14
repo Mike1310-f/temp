@@ -1,5 +1,5 @@
-import First from "./component/first"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import First from "./component/first";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Second from "./component/Second";
 import Third from "./component/Third";
 import Fourth from "./component/Fourth";
@@ -13,17 +13,16 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<First />} />
-        <Route path="/second" element={<Second/>} />
-        <Route path="/third" element={<Third/>} />
-        <Route path="/fourth" element={<Fourth/>} />
-        <Route path="/fifth"  element={<Fifth/>}/>
-        <Route path="/sixth"  element={<Sixth/>}/>
-        <Route path="/rightanswer"  element={<RightAnswer/>}/>
-        <Route path="/lastpage"  element={<LastPage/>}/>
+        <Route path="/second" element={<Second />} />
+        <Route path="/third" element={<Third />} />
+        <Route path="/fourth" element={<Fourth />} />
+        <Route path="/fifth" element={<Fifth />} />
+        <Route path="/sixth" element={<Sixth />} />
+        <Route path="/rightanswer" element={<RightAnswer />} />
+        <Route path="/lastpage" element={<LastPage />} />
       </Routes>
     </Router>
   );
-
 }
 
-export default App
+export default App;
