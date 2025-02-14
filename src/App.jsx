@@ -1,5 +1,5 @@
 import First from "./component/First";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Second from "./component/Second";
 import Third from "./component/Third";
 import Fourth from "./component/Fourth";
